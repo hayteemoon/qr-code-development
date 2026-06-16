@@ -1,3 +1,58 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Crucial for keeping element dimensions predictable */
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+ 
+html, body {
+    width: 100%;
+}
+
+.qr-background{
+    background-color: hsl(212, 45%, 89%);
+    width: 100vw;
+    height: 100vh;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qr-container{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 350px;
+    width: 225px;
+}
+
+
+.qr-code{
+    border-radius: 8px; 
+
+}
+
+
+.qr-text>h4{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.qr-text>p{
+    font-weight: 400;
+    color: hsl(216, 15%, 48%);
+    font-size: 12px;
+    text-align: center;
+    padding-top: 3px;
+}
+
 .attribution { 
     font-size: 0.6875rem; 
     text-align: center; 
